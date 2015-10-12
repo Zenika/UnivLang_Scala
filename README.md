@@ -28,7 +28,15 @@ et vous devriez obtenir le résultat suivant :
 
 Ensuite, il faut lancer la commande suivante : 
 
-		sbt test
+		sbt
+
+A l'invite suivante :
+
+        >
+
+taper la commande suivante :
+
+        test-only univ.lang.scala.ScalaFunSuite univ.lang.scala.HelloWorldSpec
 		
 et vous devriez obtenir le résultat suivant :
 
@@ -57,6 +65,8 @@ et vous devriez obtenir le résultat suivant :
 		[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
 		[info] All tests passed.
 		[info] Passed: Total 5, Failed 0, Errors 0, Passed 5
+
+*note: pour sortir du mode interactif taper exit sur l'invit >*
 		
 
 ## Configuration pour votre IDE
