@@ -94,7 +94,7 @@ Pour ce lab, on va implémenter la suite de Fibonacci.  Dans le projet, vous tro
 
 L'objectif de ce lab est de fournir une implémentation de l'algo de la suite de Fibonacci les outils comme le pattern matching et la récursivité.
 
-##LAB 03
+#LAB 03
 
 L'objectif de ce lab est d'implémenter un FIZZ BUZZ en Scala et décrire les tests associés.
 
@@ -107,7 +107,7 @@ L'objectif de ce lab est d'implémenter un FIZZ BUZZ en Scala et décrire les te
 Tenter dans un premier temps une implémentation classique puis une implémentation à base de pattern matching.
 	
 
-##LAB 04
+#LAB 04
 
 L'objectif de ce lab est de reprendre l'implémentation d'un code Java implémenté de manière tout à fait classique. 
 Les classes se trouvent dans le package **univ.lang.java.lab4**, dans la partie java (selon les conventions Maven).
@@ -123,7 +123,7 @@ Et enfin fournir une implémentation en utilisant l'API des collections en Scala
 	```scala
 	def fibo(n: Int): Int = ???
 	```
-##LAB 05
+#LAB 05
 
 L'objectif de ce lab est de refactorer l'implémentation faite en Scala de **GildedRose**
 J'ai récupéré ce kata sur ce [dépôt github](https://github.com/emilybache/GildedRose-Refactoring-Kata) 
