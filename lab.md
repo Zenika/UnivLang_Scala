@@ -86,6 +86,9 @@ Soit la classe Voiture suivante :
 
 Ajouter à cette classe une méthode **rouler** sans modifier la déclaration de la classe. Cette méthode permettra d'afficher la chaîne suivante : *la voiture [name] roule*
 
+
+	Rappel sur le lancement en continue des tests avec SBT
+
 #LAB 02
 
 On va travailler maintenant dans l'IDE. Si ce n'est pas encore fait, générer les la config pour votre projet (cf README du projet)
