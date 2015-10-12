@@ -79,7 +79,7 @@ Ecrire un mécanisme permettant de convertir automatiquement un entier en une ch
 		println("le poid est de " + poid + "Kg") 
 	}
 
-### 2.2. Implicit : ajout
+### 2.2. Implicit : ajout comportement
 Soit la classe Voiture suivante : 
 
 	class Voiture(val name:String)
