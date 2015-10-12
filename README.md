@@ -12,7 +12,7 @@ Pour faire cette installation, je vous renvoie vers la documentation officielle 
 
 ## Vérifier son environnement
 
-Une fois que l'installation est terminée, il faut cloner le projet à partir du dépôt suivant : 
+Une fois que l'installation est terminée, il faut cloner le projet à partir du dépôt suivant : [UnivLang_Scala](https://github.com/Zenika/UnivLang_Scala)
 
 Une fois le dépôt cloné, placez vous à la racine du projet et lancer la commande suivante : 
 
