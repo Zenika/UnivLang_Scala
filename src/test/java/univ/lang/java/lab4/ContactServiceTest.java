@@ -1,4 +1,4 @@
-package univ.lang.java.lab3;
+package univ.lang.java.lab4;
 
 import static org.hamcrest.Matchers.equalToIgnoringCase;
 import static org.hamcrest.Matchers.hasSize;

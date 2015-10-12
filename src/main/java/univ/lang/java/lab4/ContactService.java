@@ -1,4 +1,4 @@
-package univ.lang.java.lab3;
+package univ.lang.java.lab4;
 
 import java.util.List;
 import java.util.Map;
