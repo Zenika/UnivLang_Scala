@@ -1,4 +1,4 @@
-package com.zenika.java8.contact;
+package univ.lang.scala.lab3;
 
 public class Contact {
 
