@@ -4,22 +4,28 @@
  * Created by fsznajderman on 08/10/15.
  */
 import org.specs2._
-
+import org.univ.lang.scala.Hi
 
 class HelloWorldSpec extends Specification {
   def is = s2"""
 
-  This is a specification for the 'Hello world' string
+  This is a specification for the 'Hi' class with method
+  envSbtValidation
 
-  The 'Hello world' string should
-    contain 11 characters                             $e1
-    start with 'Hello'                                $e2
-    end with 'world'                                  $e3
+  Call Hi with 'Hello' has parameter should 
+  
+    equals to 'Hello World'                          $e1
+    contain 11 characters                            $e2 
+    start with 'Hello'                               $e3
+    end with 'world'                                 $e4
                                                       """
+  val r = Hi.envSbtValidation("Hello")
 
-  def e1 = "Hello world" must haveSize(13)
+  def e1 = r == "Hello World";
+  
+  def e2 = r must haveSize (11)
 
-  def e2 = "Hello world" must startWith("HelloE")
+  def e3 = r must startWith("Hello")
 
-  def e3 = "Hello world" must endWith("world")
+  def e4 = r must endWith("World")
 }

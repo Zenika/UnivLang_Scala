@@ -5,9 +5,10 @@ package org.univ.lang.scala
  */
 object Hi {
 
-  main(args: Array[String]) =
+  def main(args: Array[String]): Unit = {
     println("Hello World")
-
+  }
+  
   def envSbtValidation(v: String): String = v + " World"
 }
 

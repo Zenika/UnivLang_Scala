@@ -7,3 +7,7 @@ bin/
 project/project/
 project/target/
 target/
+.idea/
+.idea_modules/
+projectFilesBackup/
+src/test/scala/univ/lang/scala/ScalaFunSuite.scala
