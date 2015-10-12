@@ -1,4 +1,4 @@
-package univ.lang.scala.lab3;
+package univ.lang.java.lab3;
 
 public enum City {
 
