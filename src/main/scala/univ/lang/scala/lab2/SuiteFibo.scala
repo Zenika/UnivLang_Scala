@@ -1,4 +1,4 @@
-package org.univ.lang.scala.lab2
+package univ.lang.scala.lab2
 
 /**
  * Created by fsznajderman on 12/10/15.

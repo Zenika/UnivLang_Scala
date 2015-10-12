@@ -1,6 +1,5 @@
 package univ.lang.scala.lab2
 
-import org.univ.lang.scala.lab2.SuiteFibo
 import org.scalatest.FunSuite
 
 /**
@@ -9,7 +8,7 @@ import org.scalatest.FunSuite
 class FiboTest extends FunSuite {
 
 
-  test("For value N, fibo should be 3") {
+  test("For value 5, fibo should be 3") {
     val r = SuiteFibo.fibo(5)
     assert(3 == r);
   }

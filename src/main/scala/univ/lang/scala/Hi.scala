@@ -1,4 +1,4 @@
-package org.univ.lang.scala
+package univ.lang.scala
 
 /**
  * Check sbt env

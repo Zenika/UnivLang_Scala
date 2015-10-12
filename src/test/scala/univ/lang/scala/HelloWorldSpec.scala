@@ -1,10 +1,10 @@
-
+package univ.lang.scala
 
 /**
  * Created by fsznajderman on 08/10/15.
  */
+
 import org.specs2._
-import org.univ.lang.scala.Hi
 
 class HelloWorldSpec extends Specification {
   def is = s2"""
@@ -13,17 +13,18 @@ class HelloWorldSpec extends Specification {
   envSbtValidation
 
   Call Hi with 'Hello' has parameter should 
-  
+
     equals to 'Hello World'                          $e1
-    contain 11 characters                            $e2 
+    contain 11 characters                            $e2
     start with 'Hello'                               $e3
     end with 'world'                                 $e4
                                                       """
+
   val r = Hi.envSbtValidation("Hello")
 
   def e1 = r == "Hello World";
-  
-  def e2 = r must haveSize (11)
+
+  def e2 = r must haveSize(11)
 
   def e3 = r must startWith("Hello")
 
