@@ -1,6 +1,6 @@
 # Université des languages : Scala
 
-Vous allez participer à l'université des languages le Mardi 13 octobre 2015. 
+Vous allez participer à l'université des languages le Mardi 14 janvier 2016. 
 Pour suivre cette session, il faut impérativement un **laptop**. 
 
 Ensuite il faut configurer la machine pour gagner du temps le jour dit. C'est une petite configuration à faire.
